@@ -1,5 +1,5 @@
 {% set name = "datar" %}
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/datar-{{ version }}.tar.gz
-  sha256: 5dc6b0ca2db7c7d022190b8d7e1c95122f8c254621ede231a54bbdad82f998c8
+  sha256: 8bee66ccaedd35efce650df7e219ba7621a31a91431dbc3f1b5d7ac7464bd53e
 
 build:
   noarch: python
